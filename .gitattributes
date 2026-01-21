@@ -1,0 +1,8 @@
+# Ignore all CSV files in the language stats
+*.csv linguist-vendored
+
+# Ignore documentation or exported HTML reports
+*.html linguist-vendored
+
+# Ensure .R files are counted correctly
+*.R linguist-language=R
