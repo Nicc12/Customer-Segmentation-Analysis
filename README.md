@@ -20,4 +20,4 @@ This repository includes four files: READ.md, Customer_Segmentation.qmd, Custome
 * README.md is what you are reading now and explains information associated with the project.
 * Customer_Segmentation.qmd is the quarto file of the R code in R-Studio
 * Customer_Segmentation.pdf is the rendered pdf including all the R code, associated graphs, analysis, and markdown
-* Segmented_data_irvince.csv is the second final dataset which includes the clusters categories and some summary statistics
+* Segmented_data_irvine.csv is the second final dataset which includes the clusters categories and some summary statistics
