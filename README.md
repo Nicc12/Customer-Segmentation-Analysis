@@ -1,5 +1,5 @@
 # [Customer Segmentation Analysis 🛍️]: Identifying actionable cohorts and fueling target marketing 
----
+
 ### 📋 Overview
 The Goal: Identify distinct actionable groups based on consumer value to fuel marketing strategies.
 The Impact: Identified 4 distinct customer groups using RFM analysis, and identified market composition based on CLV and other key performance indicators.
