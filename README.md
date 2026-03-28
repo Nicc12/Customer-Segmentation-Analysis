@@ -6,9 +6,10 @@
     Recency Frequency Monetary Analysis.
 ### Tech & Methods: ⚙️
 ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-        * Languages/Tools: R, Tableau
-        * Libraries: tidyverse, lubridate, plotly
-        * Concepts: K-Means, Clustering, RFM Analysis, Customer Lifetime Value, WCSS
+
+        Languages/Tools: R, Tableau
+        Libraries: tidyverse, lubridate, plotly
+        Concepts: K-Means, Clustering, RFM Analysis, Customer Lifetime Value, WCSS
   
 ### 🗺️ Project Architecture
 * Data Ingestion: Collected by the University of California, Irvine, for a European retailer between 01/12/2010 and 19/12/2011.
