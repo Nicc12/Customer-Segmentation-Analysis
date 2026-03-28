@@ -1,23 +1,27 @@
-# Customer Segmentation Analysis 🛍️ 
-
-Using Online Retail data donated to UC Irvine on 11/5/2015 that recorded all transactions occurring between 01/12/2010 to 19/12/2011 for a UK-based registered non-store online retailer, I am prompted with the task of differentiating customer types to drive targeted marketing campaigns. Additionally, I calculated Customer Lifetime Value (CLV) and identified the portion of CLV that is associated with each segmented group. 
-
+# Customer Segmentation Analysis in R-Studio 🛍️ 
+---
+## 📋 Overview
+A customer segmentation analysis is used to identify actionable cohorts. Fueled by UC Irvince, retained data, this project supports targeted reward programs and targeted marketing strategies. Projecting a method to diagnose and a tableau dashboard to understand market composition. This project explores Customer Lifetime Value and Recency Frequency Monetary Analysis.
+---
 ### Tech & Methods: ⚙️
 ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
-* R-Markdown
-* R-Studio
-* Quarto Document
-* Customer Segmentation
-* K-Means
-* WCSS
-* Customer Lifetime Value
-
+* Languages/Tools: R, Tableau
+* Libraries: tidyverse, lubridate, plotly
+* Concepts: K-Means, Clustering, RFM Analysis, Customer Lifetime Value, WCSS
 ---
-### Repository Information 📄:
+## 🗺️ Project Architecture
+* Data Ingestion: Collected by the University of California, Irvine, for a European retailer between 01/12/2010 and 19/12/2011.
+* Processing/Storage: Downloaded and stored as a CSV file, and cleaned/processed in R-Studio.
+* Analysis/Modeling: Cohorts were separated based on transaction frequency, how recent their last transaction was, and how much overall spending they have conducted with the retailer. After grouping, Customer lifetime values were calculated to determine the value of each cohort.
+* Delivery: The results were summarized in a Tableau dashboard, identifying the market composition regarding cohort and customer lifetime value.
+---
+# 📊 Key Insights & Outcomes
+* Insight 1: Identified four customer cohorts, highlighting a 5.4% churn risk.
+* Insight 2: Automated reporting of market composition, displaying cohort size, location, and characteristics.
+---
+## 📂 Repository Structure
 
-This repository includes four files: READ.md, Customer_Segmentation.qmd, Customer_Segmentation.pdf, and Segmented_data_irvine.csv
-* README.md is what you are reading now and explains information associated with the project.
-* Customer_Segmentation.qmd is the quarto file of the R code in R-Studio
-* Customer_Segmentation.pdf is the rendered pdf including all the R code, associated graphs, analysis, and markdown
-* Segmented_data_irvine.csv is the second final dataset which includes the clusters categories and some summary statistics
+/data: Segmented_data_irvine.csv
+/notebooks: Customer_Segmentation.pdf 
+/src: Customer_Segmentation.qmd
+Project_Analysis.pdf: CustomerSegmentationDashboard.png
