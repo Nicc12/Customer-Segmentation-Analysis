@@ -1,6 +1,8 @@
-# Customer Segmentation Analysis in R-Studio 🛍️ 
+# [Customer Segmentation Analysis 🛍️]: Identifying actionable cohorts and fueling target marketing 
+---
 ### 📋 Overview
-A customer segmentation analysis is used to identify actionable cohorts. Fueled by UC Irvince, retained data, this project supports targeted reward programs and targeted marketing strategies. Projecting a method to diagnose and a tableau dashboard to understand market composition. This project explores Customer Lifetime Value and Recency Frequency Monetary Analysis.
+The Goal: Identify distinct actionable groups based on consumer value to fuel marketing strategies.
+The Impact: Identified 4 distinct customer groups using RFM analysis, and identified market composition based on CLV and other key performance indicators.
 ### Tech & Methods: ⚙️
 ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
