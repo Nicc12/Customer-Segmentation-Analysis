@@ -22,7 +22,7 @@ A customer segmentation analysis is used to identify actionable cohorts. Fueled 
 ---
 ### 📂 Repository Structure
 
-/data: Segmented_data_irvine.csv
-/notebooks: Customer_Segmentation.pdf 
-/src: Customer_Segmentation.qmd
-Project_Analysis.pdf: CustomerSegmentationDashboard.png
+* data: Segmented_data_irvine.csv
+* notebooks: Customer_Segmentation.pdf 
+* src: Customer_Segmentation.qmd
+* Images/Dashboards: CustomerSegmentationDashboard.png
